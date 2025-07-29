@@ -1,4 +1,4 @@
-# Yin.RPC
+# RPC-master
 
 [![Java](https://img.shields.io/badge/Java-8+-orange.svg)](https://www.oracle.com/java/)
 [![Netty](https://img.shields.io/badge/Netty-4.1.6-blue.svg)](https://netty.io/)
@@ -7,7 +7,7 @@
 
 > 一个基于 Netty、ZooKeeper、Spring 的轻量级 RPC 框架
 
-Yin.RPC 是一个轻量级、高性能的分布式远程过程调用（RPC）框架，专为 Java 应用程序设计。它采用现代化的网络通信技术和服务发现机制，提供简单易用的注解驱动开发体验。
+RPC-master 是一个轻量级、高性能的分布式远程过程调用（RPC）框架，专为 Java 应用程序设计。它采用现代化的网络通信技术和服务发现机制，提供简单易用的注解驱动开发体验。
 
 ## ✨ 核心特性
 
@@ -23,7 +23,7 @@ Yin.RPC 是一个轻量级、高性能的分布式远程过程调用（RPC）框
 ## 🏗️ 项目架构
 
 ```
-Yin.RPC/
+RPC-master/
 ├── Yin.rpc/          # RPC 服务端模块
 │   ├── annotation/   # 注解定义
 │   ├── server/       # 服务器实现
@@ -136,8 +136,8 @@ public class RemoteInvokeTest {
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/KOVHaogu/Yin.RPC.git
-cd Yin.RPC
+git clone https://github.com/KOVHaogu/RPC-master.git
+cd RPC-master
 ```
 
 ### 2. 编译项目
